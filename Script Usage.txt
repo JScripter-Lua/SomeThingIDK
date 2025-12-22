@@ -1,3 +1,9 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/Forge.txt"))()
+local links = {
+    "https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/Forge.txt",
+    "https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/Flick.lua",
+    "https://site.com/script3.lua"
+}
 
-loadstring(gane:HttpGet("https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/Flick.lua"))()
+for _, url in ipairs(links) do
+    loadstring(game:HttpGet(url))()
+end
