@@ -1,7 +1,7 @@
 local links = {
     "https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/Forge.txt",
     "https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/Flick.txt",
-    "https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/Prison%20Life.lua"
+    "https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/Prison%20Life.txt"
 }
 
 for _, url in ipairs(links) do
