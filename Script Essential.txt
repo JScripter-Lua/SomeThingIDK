@@ -1,1 +1,22 @@
+local PlaceId = tostring(game.PlaceId)
 
+local Scripts = {
+    ["//raw/link.test.XDDDDDD.com"] = {
+        "929293929",
+        "82838383",
+    },
+
+    ["//raw/link.test.XDDDDDDv2222.com"] = {
+        "9292976",
+        "172626627272",
+    }
+}
+
+for url, ids in pairs(Scripts) do
+    if table.find(ids, PlaceId) then
+        loadstring(game:HttpGet(url, true))()
+        return
+    end
+end
+
+warn("[Loader] Unsupported game:", PlaceId)
