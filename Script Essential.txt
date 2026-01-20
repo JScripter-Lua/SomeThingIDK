@@ -14,8 +14,8 @@ print([[
 local PlaceId = tostring(game.PlaceId)
 
 local Scripts = {
-    ["//raw/link.test.XDDDDDD.com"] = {
-        "929293929",
+    ["https://raw.githubusercontent.com/JScripter-Lua/Essential_H/refs/heads/main/Flick.lua"] = {
+        "136801880565837",
         "82838383",
     },
 
